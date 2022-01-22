@@ -5,7 +5,7 @@ final class PrincipalWindowCoordinator: NSObject, WindowCoordinator {
     //  MARK: - Instance Properties
 
     /// The coordinator responsible for the window's root view controller.
-    private let rootCoordinator: PlaceholderNavigationCoordinator
+    private let rootCoordinator: RootTabBarCoordinator
 
     //  MARK: WindowCoordinator Witness Properties
 
@@ -22,7 +22,7 @@ final class PrincipalWindowCoordinator: NSObject, WindowCoordinator {
     ///
     init(window: UIWindow) {
         self.window = window
-        self.rootCoordinator = PlaceholderNavigationCoordinator()
+        self.rootCoordinator = RootTabBarCoordinator()
         super.init()
     }
 

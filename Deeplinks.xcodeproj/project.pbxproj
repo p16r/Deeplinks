@@ -21,6 +21,8 @@
 		059E287927798FE70058C18B /* PrincipalWindowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059E287227798FE60058C18B /* PrincipalWindowCoordinator.swift */; };
 		059E287A27798FE70058C18B /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059E287327798FE60058C18B /* Coordinator.swift */; };
 		059E287D2779901D0058C18B /* UIWindow+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059E287C2779901D0058C18B /* UIWindow+.swift */; };
+		05CB4F67279C1C8C003F4D32 /* TabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CB4F66279C1C8C003F4D32 /* TabBarCoordinator.swift */; };
+		05CB4F69279C1CB2003F4D32 /* RootTabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CB4F68279C1CB2003F4D32 /* RootTabBarCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		059E287227798FE60058C18B /* PrincipalWindowCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrincipalWindowCoordinator.swift; sourceTree = "<group>"; };
 		059E287327798FE60058C18B /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		059E287C2779901D0058C18B /* UIWindow+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIWindow+.swift"; sourceTree = "<group>"; };
+		05CB4F66279C1C8C003F4D32 /* TabBarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCoordinator.swift; sourceTree = "<group>"; };
+		05CB4F68279C1CB2003F4D32 /* RootTabBarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabBarCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,7 @@
 			children = (
 				059E287327798FE60058C18B /* Coordinator.swift */,
 				059E286E27798FE60058C18B /* NavigationCoordinator.swift */,
+				05CB4F66279C1C8C003F4D32 /* TabBarCoordinator.swift */,
 				059E287027798FE60058C18B /* WindowCoordinator.swift */,
 				05CB4F65279C11D9003F4D32 /* PlaceholderNavigationCoordinator */,
 			);
@@ -149,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				059E287227798FE60058C18B /* PrincipalWindowCoordinator.swift */,
+				05CB4F6A279C1DA3003F4D32 /* RootTabBar */,
 			);
 			path = PrincipalWindow;
 			sourceTree = "<group>";
@@ -161,6 +167,14 @@
 				05816DC6278ABC6900C79744 /* PlaceholderViewController.swift */,
 			);
 			path = PlaceholderNavigationCoordinator;
+			sourceTree = "<group>";
+		};
+		05CB4F6A279C1DA3003F4D32 /* RootTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				05CB4F68279C1CB2003F4D32 /* RootTabBarCoordinator.swift */,
+			);
+			path = RootTabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +253,8 @@
 				059E287627798FE70058C18B /* PlaceholderNavigationCoordinator.swift in Sources */,
 				059E284F27798C4F0058C18B /* AppDelegate.swift in Sources */,
 				059E286527798F840058C18B /* PrincipalSceneDelegate.swift in Sources */,
+				05CB4F69279C1CB2003F4D32 /* RootTabBarCoordinator.swift in Sources */,
+				05CB4F67279C1C8C003F4D32 /* TabBarCoordinator.swift in Sources */,
 				059E287827798FE70058C18B /* WindowCoordinator.swift in Sources */,
 				059E287D2779901D0058C18B /* UIWindow+.swift in Sources */,
 				05816DC7278ABC6900C79744 /* PlaceholderViewController.swift in Sources */,
