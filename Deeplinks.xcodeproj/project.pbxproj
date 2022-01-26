@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		053B89C527A1596A00C1BCE3 /* RootTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053B89C427A1596A00C1BCE3 /* RootTabBarController.swift */; };
 		05816DC7278ABC6900C79744 /* PlaceholderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05816DC6278ABC6900C79744 /* PlaceholderViewController.swift */; };
 		05816DC9278ABC9300C79744 /* PlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05816DC8278ABC9300C79744 /* PlaceholderView.swift */; };
 		05816DCB278AC3F000C79744 /* WithAutolayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05816DCA278AC3F000C79744 /* WithAutolayout.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		053B89C427A1596A00C1BCE3 /* RootTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabBarController.swift; sourceTree = "<group>"; };
 		05816DC6278ABC6900C79744 /* PlaceholderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderViewController.swift; sourceTree = "<group>"; };
 		05816DC8278ABC9300C79744 /* PlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderView.swift; sourceTree = "<group>"; };
 		05816DCA278AC3F000C79744 /* WithAutolayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithAutolayout.swift; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				05CB4F68279C1CB2003F4D32 /* RootTabBarCoordinator.swift */,
+				053B89C427A1596A00C1BCE3 /* RootTabBarController.swift */,
 			);
 			path = RootTabBar;
 			sourceTree = "<group>";
@@ -248,6 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				059E286427798F840058C18B /* PrincipalSceneConfiguration.swift in Sources */,
+				053B89C527A1596A00C1BCE3 /* RootTabBarController.swift in Sources */,
 				059E287927798FE70058C18B /* PrincipalWindowCoordinator.swift in Sources */,
 				059E287A27798FE70058C18B /* Coordinator.swift in Sources */,
 				059E287627798FE70058C18B /* PlaceholderNavigationCoordinator.swift in Sources */,

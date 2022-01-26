@@ -4,7 +4,7 @@ final class RootTabBarCoordinator: NSObject, TabBarCoordinator {
 
     //  MARK: - Instance Properties
 
-    let controller: UITabBarController
+    let controller: RootTabBarController
 
     //  MARK: TabBarCoordinator Witness Properties
 
@@ -14,7 +14,7 @@ final class RootTabBarCoordinator: NSObject, TabBarCoordinator {
     //  MARK: - Initializers
 
     override init() {
-        self.controller = UITabBarController()
+        self.controller = RootTabBarController()
         coordinator = PlaceholderNavigationCoordinator()
     }
 
