@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		053B89C327A1547F00C1BCE3 /* MapNavigationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053B89C227A1547F00C1BCE3 /* MapNavigationCoordinator.swift */; };
 		053B89C527A1596A00C1BCE3 /* RootTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053B89C427A1596A00C1BCE3 /* RootTabBarController.swift */; };
+		053B89C727A16ED200C1BCE3 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053B89C627A16ED200C1BCE3 /* MapViewController.swift */; };
 		05816DC7278ABC6900C79744 /* PlaceholderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05816DC6278ABC6900C79744 /* PlaceholderViewController.swift */; };
 		05816DC9278ABC9300C79744 /* PlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05816DC8278ABC9300C79744 /* PlaceholderView.swift */; };
 		05816DCB278AC3F000C79744 /* WithAutolayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05816DCA278AC3F000C79744 /* WithAutolayout.swift */; };
@@ -27,7 +29,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		053B89C227A1547F00C1BCE3 /* MapNavigationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapNavigationCoordinator.swift; sourceTree = "<group>"; };
 		053B89C427A1596A00C1BCE3 /* RootTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabBarController.swift; sourceTree = "<group>"; };
+		053B89C627A16ED200C1BCE3 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		05816DC6278ABC6900C79744 /* PlaceholderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderViewController.swift; sourceTree = "<group>"; };
 		05816DC8278ABC9300C79744 /* PlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderView.swift; sourceTree = "<group>"; };
 		05816DCA278AC3F000C79744 /* WithAutolayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithAutolayout.swift; sourceTree = "<group>"; };
@@ -59,6 +63,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		053B89C827A16EF600C1BCE3 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				053B89C227A1547F00C1BCE3 /* MapNavigationCoordinator.swift */,
+				053B89C627A16ED200C1BCE3 /* MapViewController.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
 		05816DCC278DF62900C79744 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
@@ -176,6 +189,7 @@
 			children = (
 				05CB4F68279C1CB2003F4D32 /* RootTabBarCoordinator.swift */,
 				053B89C427A1596A00C1BCE3 /* RootTabBarController.swift */,
+				053B89C827A16EF600C1BCE3 /* Map */,
 			);
 			path = RootTabBar;
 			sourceTree = "<group>";
@@ -252,6 +266,7 @@
 			files = (
 				059E286427798F840058C18B /* PrincipalSceneConfiguration.swift in Sources */,
 				053B89C527A1596A00C1BCE3 /* RootTabBarController.swift in Sources */,
+				053B89C327A1547F00C1BCE3 /* MapNavigationCoordinator.swift in Sources */,
 				059E287927798FE70058C18B /* PrincipalWindowCoordinator.swift in Sources */,
 				059E287A27798FE70058C18B /* Coordinator.swift in Sources */,
 				059E287627798FE70058C18B /* PlaceholderNavigationCoordinator.swift in Sources */,
@@ -265,6 +280,7 @@
 				05816DC9278ABC9300C79744 /* PlaceholderView.swift in Sources */,
 				05816DCB278AC3F000C79744 /* WithAutolayout.swift in Sources */,
 				059E287727798FE70058C18B /* NavigationCoordinator.swift in Sources */,
+				053B89C727A16ED200C1BCE3 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

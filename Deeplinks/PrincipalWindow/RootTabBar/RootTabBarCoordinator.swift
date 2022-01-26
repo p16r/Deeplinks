@@ -8,21 +8,21 @@ final class RootTabBarCoordinator: NSObject, TabBarCoordinator {
 
     //  MARK: TabBarCoordinator Witness Properties
 
-    /// A navigation coordinator whose navigation controller will be added to the tab bar.
-    private let coordinator: PlaceholderNavigationCoordinator
+    /// A map navigation coordinator whose navigation controller will be added to the tab bar.
+    private let mapCoordinator: MapNavigationCoordinator
 
     //  MARK: - Initializers
 
     override init() {
         self.controller = RootTabBarController()
-        coordinator = PlaceholderNavigationCoordinator()
+        mapCoordinator = MapNavigationCoordinator()
     }
 
-    //  MARK: - Coordinator Conformance
+    //  MARK: - TabBarCoordinator Conformance
 
     /// Starts the child coordinator and adds its controller to the tab bar controllers root view controllers.
     func start() {
-        coordinator.start()
+        mapCoordinator.start()
         let controllers = makeViewControllers()
         controller.setViewControllers(controllers, animated: false)
     }
@@ -35,7 +35,12 @@ final class RootTabBarCoordinator: NSObject, TabBarCoordinator {
     /// - Returns: The intended array of root view controllers of this tab bar controller.
     ///
     private func makeViewControllers() -> [UIViewController] {
-        let controller = coordinator.controller
+        let controller = mapCoordinator.controller
+        controller.tabBarItem = UITabBarItem(
+            title: "Map",
+            image: UIImage(systemName: "map"),
+            selectedImage: UIImage(systemName: "map.fill")
+        )
         return [
             controller,
         ]
